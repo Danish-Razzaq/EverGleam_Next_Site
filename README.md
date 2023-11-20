@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EverGleam_Next_Site
+
+Welcome to our dynamic and visually captivating EverGleam_Next_Site site, powered by cutting-edge technology. Our platform not only provides an extensive range of products but also offers a seamless and engaging user experience with its modern and responsive design. We take pride in utilizing advanced technologies and user-friendly interfaces to deliver a unique online shopping experience. Dive into our website to discover a new dimension of e-commerce innovation.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/): The React framework used for building the application.
+- [Sanity.io](https://www.sanity.io/): The headless CMS used for managing data.
+- [React](https://react.dev/): The foundation of the application.
+- [Stripe]_(https://stripe.com/): Mayment reciving use the stripe tecnology
+- [Shadcn UI](https://ui.shadcn.com/): UI library for interactive UI components.
+- [Material UI](https://mui.com/): React UI framework for designing UI components.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for styling.
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the repository**:
+    ```bash
+    gh repo clone Danish-Razzaq/EverGleam_Next_Site
+    cd EverGleam_Next_Site
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Set up environment variables**:
+   Create a `.env.local` file in the project root and add your Sanity.io credentials:
+    ```env
+   SANITY_PROJECT_ID=your_sanity_project_id
+   SANITY_DATASET=your_sanity_dataset
+    stripe_id = your_ stripe_id
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+4. **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-## Learn More
+   Open [https://evergleam-site](https://evergleam-site.vercel.app) in your browser to view the result.
 
-To learn more about Next.js, take a look at the following resources:
+## Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In the project directory, you can run:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- `npm run dev`: Runs the app in development mode.
+- `npm run build`: Builds the app for production.
+- `npm start`: Runs the built app in production mode.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you would like to contribute to the project, please fork the repository, create a feature branch, and open a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is open-source and available under the MIT License.
