@@ -7,7 +7,7 @@ Welcome to our dynamic and visually captivating EverGleam_Next_Site site, powere
 - [Next.js](https://nextjs.org/): The React framework used for building the application.
 - [Sanity.io](https://www.sanity.io/): The headless CMS used for managing data.
 - [React](https://react.dev/): The foundation of the application.
-- [Stripe]_(https://stripe.com/): Mayment reciving use the stripe tecnology
+- [Stripe](https://stripe.com/): Mayment reciving use the stripe tecnology
 - [Shadcn UI](https://ui.shadcn.com/): UI library for interactive UI components.
 - [Material UI](https://mui.com/): React UI framework for designing UI components.
 - [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for styling.
